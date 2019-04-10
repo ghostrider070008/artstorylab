@@ -1,3 +1,8 @@
+/*Подключение шрифта*/
+@font-face{
+    font-family: MuseoSansCyrl;
+    src: "fonts/MuseoSansCyrl.otf";
+}
 header{
     width: 100%;
     height: 120px;
@@ -6,17 +11,40 @@ header{
 }
 .logo{
     float: left;
-    123
     width: 200px;
     height: 20px;
     background-image: url("../img/logo.png");
+    margin-top: 8px; 
 }
 .menuA{
     display: block;
     float: left;
     text-decoration: none;
     margin-left: 20px;
+    font-family: MuseoSansCyrl;
+    font-size: 18pt;
+    color: #ffffff;
+}
+.clear{
+    clear: both;
+    width: 100%;
+    height: 0;
 }
 nav{
-    
+    float: right;
+    margin-right: 5%;
+}
+.container1{
+    height: calc(100vh - 140px);
+}
+.container1 .col-5{
+    background-color: blueviolet;
+}
+.container1 .col-5 img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.container1 .col-7{
+    background-color: aqua;
 }
