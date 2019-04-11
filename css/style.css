@@ -3,6 +3,10 @@
     font-family: MuseoSansCyrl;
     src: "fonts/MuseoSansCyrl.otf";
 }
+@font-face{
+    font-family: Geometric;
+    src: "fonts/geometric.otf";
+}
 header{
     width: 100%;
     height: 120px;
@@ -64,3 +68,64 @@ nav{
 .container1 .col-lg-7 p{
     color:#ffffff;
 }
+#sec2{
+    height: 100vh;
+background-color: #252525;
+}
+.sec2h2{
+color: #999999;
+font-size: 36pt;
+font-family: Geometric;
+padding-top: 200px;
+margin: 0 auto 88px auto;
+width: fit-content;
+
+}
+.sec2h2:first-letter{
+    text-transform: capitalize;
+}
+.sec2img{
+    margin-right: 127px;
+    transform: scale(1);
+    transition: transform 1s;
+}
+.sec2img:hover{
+    transform: scale(1.3);
+    transition: transform 1s;
+    cursor: pointer;
+}
+.sec2img:nth-last-child(2){
+    margin-right: 0;
+}
+.fa-chevron-left{
+    margin-right: 54px;
+    color: #939393;
+
+}
+.fa-chevron-right{
+    color: #939393;
+    margin-left: 54px;
+}
+.photos{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa-circle{
+    color: #898989;
+}
+.slaider a:first-child{
+    color: #000000;
+}
+.slaider{
+    margin: 120px auto 0 auto;
+    width: fit-content;
+}
+.fa-circle:hover{
+    color: #000000;
+}
+.slaider a{
+    padding-right: 15px;
+}
+
